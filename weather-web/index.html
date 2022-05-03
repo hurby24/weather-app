@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="fetchWeatherData()"></body>
+    <div class="container">
+        <div class="box">
+            <div class="city">
+                <h1 class="name">Baku</h1>
+            </div>
+            <div class="info">
+                <div class="boxer">
+                    <h2 class="temp">15&#176</h2>
+                    <p class="date">05-04-2022</p>
+                </div>
+                <div class="boxer">
+                    <img src="/icons/day/113.png" alt="icon" class="icon">
+                    <p class="condition">Sunny</p>
+                </div>
+            </div>
+            <div class="searchb">
+             <form id="LocationInput">
+                <input type="text" class="search"  placeholder="Enter a city name">
+                <button type="submit" class="submit">Search</button>
+             </form>
+            </div>
+        </div>
+        <a href="https://discord.com/users/553961483541676053" class="credit">Created by Hurby</a>
+    </div>
+    
+   <script src="main.js"></script>
+</body>
+</html>
